@@ -11,7 +11,6 @@ class StepDefinitions extends ScalaDsl with EN {
   When("I concatenate {string} and {string}") {
     (string1: String, string2: String) =>
       concatenatedString = string1 + string2
-
   }
 
   Then("The result should be {string}") { (string: String) =>
